@@ -36,7 +36,7 @@ const messageDelete = async (req, res) => {
     throw HttpError(404, "Message not found");
   }
 
-  res.json({ message: "contact deleted" });
+  res.json({ message: "Message deleted" });
 };
 
 module.exports = {
